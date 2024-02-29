@@ -11,8 +11,8 @@
   padding: 0%;
   margin: 0%;
 }
-HTML{
-  overflow-x: hidden;
+body{
+  overflow-x: hidden !important;
 }
 .nav-wrp {
   gap: 30px;
@@ -30,6 +30,7 @@ button.btn.btn-outline-success {
   border-color: #fff;
   color: #fff;
   padding: 10px 50px;
+  font-size: 24px;
   transition: 0.6s;
 }
 button.btn.btn-outline-success:hover {
@@ -50,14 +51,16 @@ button.btn.btn-outline-success:hover {
 .banner-text h1 {
   font-family: Mona;
   color: white;
-  font-size: 4rem;
+  font-size: 80px;
   font-weight: 700;
   letter-spacing: 5px;
+  line-height: 150px;
 }
 .banner-text h1 span {
-  font-size: 7rem;
+  font-size: 180px;
   color: rgba(155, 134, 254, 1);
   font-weight: 800;
+  letter-spacing: -7px;
 }
 .banner-text {
   position: relative;
@@ -74,12 +77,11 @@ button.btn.btn-outline-success:hover {
 }
 .banner-text p {
   color: white;
-  font-size: 19px;
-  width: 70%;
+  font-size: 26px;
 }
 .primary-btn {
   color: white;
-  font-size: 19px;
+  font-size: 25px;
   border-radius: 10px;
   background: transparent;
   border: 2px solid #8167ff;
@@ -96,7 +98,7 @@ button.btn.btn-outline-success:hover {
   display: block;
   z-index: 0;
   bottom: -216px;
-  animation: darklight infinite 2s linear;
+  /* animation: darklight infinite 2s linear; */
   left: 0;
 }
 /* Banner Css End */
@@ -139,15 +141,12 @@ button.btn.btn-outline-success:hover {
   margin-top: 50px;
   justify-content: space-between;
 }
-.brands-img img {
-  height: 86px;
-  width: 150px;
-}
+
 /* Footer Css Start */
 
 .footer {
   background: #0d111c;
-  padding: 0px 0px;
+  padding-top: 75px;
 }
 .text-icon {
   margin: 30px 0px;
@@ -226,8 +225,9 @@ button.btn.btn-outline-success:hover {
   margin-top: 20px;
 }
 .buisness-content-wrp p {
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 400;
+  font-family: Mona;
   color: #fff;
   /* font-family: Mona; */
 }
@@ -237,11 +237,11 @@ button.btn.btn-outline-success:hover {
 .buisness-content-wrp h4,
 .domain-content-wrp h4 {
   margin: 10px 0;
-  font-size: 35px;
+  font-size: 55px;
   font-weight: 500;
   color: #fff;
   font-family: Mona;
-  line-height: 58px;
+  line-height: 80px;
 }
 .b-span-one {
   color: #ff88c3;
@@ -294,9 +294,10 @@ button.btn.btn-outline-success:hover {
   max-width: 75px;
 }
 .domain-icon-text p {
-  font-size: 18px;
+  font-size: 24px;
   color: #fff;
-  font-family: sans-serif;
+  opacity: 1;
+  font-family: 'Mona';
 }
 .logo-domain img {
   text-align: center;
@@ -307,21 +308,22 @@ button.btn.btn-outline-success:hover {
   margin: 0 auto;
 }
 .domain-btn {
-  padding: 20px;
+  padding: 10px 20px;
   background-image: linear-gradient(to bottom right, #ff88c3, #9b86fe);
   opacity: 1;
   color: #fff;
   display: flex;
   border-radius: 50px;
+  align-items: center;
   gap: 20px;
 }
 .domain-btn p {
   color: #fff;
-  font-size: 15px;
+  font-size: 24px;
   text-align: start;
 }
 .domain-btn p span {
-  font-size: 10px;
+  font-size: 18px;
 }
 .domain-btn img {
   padding: 10px;
@@ -330,11 +332,11 @@ button.btn.btn-outline-success:hover {
   border-radius: 50%;
 }
 .domain-bottom p {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 400;
   font-family: Mona;
   color: #fff;
-  opacity: 0.5;
+  opacity: 1;
   line-height: 58px;
 }
 /* services sec css */
@@ -351,8 +353,8 @@ button.btn.btn-outline-success:hover {
   left: 13px;
 }
 .featured-content h4 {
-  margin: 20px 0;
-  font-size: 60px;
+  margin: 40px 0;
+  font-size: 80px;
   font-family: Mona;
   font-weight: 400;
   line-height: 78px;
@@ -368,7 +370,7 @@ button.btn.btn-outline-success:hover {
   padding: 15px;
   background-color: #0d1117;
   border-radius: 15px;
-  width: 40%;
+  width: 35%;
 }
 .top-service {
   margin-top: 20px;
@@ -380,15 +382,15 @@ button.btn.btn-outline-success:hover {
 }
 .top-service h3 {
   color: #fff;
-  font-size: 15px;
-  font-family: sans-serif;
+  font-size: 24px;
+  font-family: Mona;
 }
 .top-service p {
   color: #fff;
-  font-size: 13px;
-  font-family: sans-serif;
+  font-size: 19.95px;
+  font-family: Mona;
 }
-.top-service:hover {
+.top-service:hover, .active-tab {
   background-image: linear-gradient(to bottom right, #ff88c3, #9b86fe);
   cursor: pointer;
 }
@@ -398,6 +400,7 @@ button.btn.btn-outline-success:hover {
 .testing-auto {
   padding: 10px;
   border: 1rem solid #0d1117;
+  width: 60%;
 }
 .testing-auto h4 {
   margin: 20px 0;
@@ -406,7 +409,9 @@ button.btn.btn-outline-success:hover {
   color: #fff;
 }
 .testing-auto img:not(:first-child) {
-  max-width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 100%;
 }
 .testing-auto img:first-child {
   /* max-width: 75px; */
@@ -440,8 +445,12 @@ button.btn.btn-outline-success:hover {
   padding: 40px;
   border-radius: 25px;
 }
-.devops-content h5 {
+.services-card h5 {
   font-size: 24px;
+  margin: 20px 0;
+}
+.devops-content h5{
+  font-size: 30px;
   margin: 20px 0;
 }
 .bd-managment {
@@ -453,39 +462,42 @@ button.btn.btn-outline-success:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 100px;
 }
 .managment-right img {
   max-width: 500px;
-  position: relative;
-  bottom: -52px;
-  left: -52px;
 }
 .featured-content .gradient-btn {
   border-radius: 25px;
   padding: 5px 25px;
 }
 .text-story h4 {
-  font-size: 50px;
+  font-size: 70px;
   color: #fff;
   font-family: Mona;
   font-weight: 400;
   line-height: 68px;
 }
 .story-card h5 {
-  font-size: 25px;
-  font-family: sans-serif;
+  font-size: 32px;
+  font-family: 'Mona';
   color: #fff;
   text-align: center;
 }
+.card-center{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .card-top {
   top: 15px;
-  transform: translateX(215%);
+  transform: translateX(314%);
 }
 .card-bottom {
   position: absolute;
   display: flex;
   flex-direction: column;
-  transform: translateX(111px);
+  transform: translateX(160px);
   bottom: 50px;
 }
 .cloud-ser-main {
@@ -498,10 +510,10 @@ button.btn.btn-outline-success:hover {
 }
 .cloud-services h4 {
   color: #fff;
-  font-size: 30px;
+  font-size: 48px;
   font-family: Mona;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 54px;
 }
 .mission-text-wrp::before {
   position: absolute;
@@ -551,14 +563,18 @@ button.btn.btn-outline-success:hover {
   left: 13px;
 }
 .approach-text h4 {
-  font-size: 50px;
+  font-size: 66px;
   font-family: Mona;
   font-weight: 400;
   color: #fff;
   display: flex;
   gap: 15px;
 }
-.app-card {
+.app-card-child p{
+  font-size: 24px;
+  font-family: Mona;
+}
+.app-card, .app-card-2, .app-card-3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -567,7 +583,7 @@ button.btn.btn-outline-success:hover {
   background: #000;
   border-radius: 15px;
   padding: 0 50px;
-  height: 250px;
+  height: 335px;
 }
 .app-card::before {
   content: "";
@@ -581,11 +597,37 @@ button.btn.btn-outline-success:hover {
   background-size: contain;
   /* animation: darklight infinite 2s linear; */
 }
+.app-card-2::after {
+  content: "";
+  position: absolute;
+  bottom: -123px;
+  left: 0;
+  background-image: url(../src/assets/images/sec-card-before.png);
+  width: 105%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* animation: darklight infinite 2s linear; */
+}
+.app-card-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../src/assets/images/third-before.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* animation: darklight infinite 2s linear; */
+}
 .app-card p span:first-child {
   opacity: 0.5;
 }
 small {
-  opacity: 0.5;
+  opacity: 1;
+  font-size: 18px;
+  line-height: 35px;
 }
 .app-card-child {
   margin-top: -80px;
@@ -597,7 +639,7 @@ small {
 .mt-50 {
   margin-top: 50px;
 }
-.contact-us-sec{
+.contact-us-sec {
   padding-bottom: 250px;
 }
 .contact-heading::before {
@@ -616,17 +658,17 @@ small {
   0% {
     opacity: 0.2;
   }
- 50% {
+  50% {
     opacity: 0.5;
   }
- 75% {
+  75% {
     opacity: 0.8;
   }
- 100% {
+  100% {
     opacity: 1;
   }
 }
-.contact-image{
+.contact-image {
   position: absolute;
   /* bottom: -46rem; */
   left: 0;
@@ -640,10 +682,10 @@ small {
   padding-bottom: 80px;
 }
 
-.locations{
+.locations {
   gap: 20px;
 }
-.left-top{
+.left-top {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -651,25 +693,47 @@ small {
   border-radius: 15px;
   border: 2px dashed #ff88c3;
 }
-.form-label{
+.form-label {
   color: #fff;
   font-size: 15px;
   font-family: Mona;
 }
-.message-heading h4{
+.message-heading h4 {
   font-size: 45px;
   font-family: Mona;
   font-weight: 400;
   color: #fff;
 }
-.contact-us-sec{
+.contact-us-sec {
   background-image: url(../src/assets/images/contact-after.png);
   background-repeat: no-repeat;
-  background-size: 50% 50%;
-  background-position: left;
+  background-size: 50% 77%;
+  filter: drop-shadow(2px 4px 6px black);
+  background-position: left bottom;
 }
-.f-bottom{
+.f-bottom {
   padding: 20px;
   background-color: #000;
   text-align: center;
+}
+.services-card h5{
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+@media (max-width: 2000px) {
+  .container {
+    max-width: 1800px;
+  }
+}
+@media (max-width: 1600px) {
+  :root{
+    font-size: 10px;
+  }
+}
+@media (max-width: 1440px) {
+  .brands-img img {
+    height: 86px;
+    width: 150px;
+  }
 }

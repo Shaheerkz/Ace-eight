@@ -10,12 +10,12 @@ function Hero() {
       }, [])
   return (
     <section className='hero-sec'>
-        <div className='container'>
+        <div className='container container-c'>
             <div className='row'>
                 <div className='col-lg-8 col-sm-12'>
                     <div className='banner-text' data-aos="fade-left">
                         <h1>We Empower <span> Innovations</span></h1>
-                        <p>We are a people-focused organization that solves business problems through technology.</p>
+                        <p>We are a people-focused organization that solves <br /> business problems through technology.</p>
                         <PrimaryBtn className='my-3' text='learn more'/>
                     </div>
                 </div>

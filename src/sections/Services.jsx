@@ -1,6 +1,12 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import SettingImg from "../assets/images/setting-icon.png";
+import InviormentImg from "../assets/images/invirment.png";
+import IncidentImg from "../assets/images/incident.png";
+import TabsMImg from "../assets/images/tabs-message.png";
+import DesignImg from "../assets/images/design-tab.png";
+import TDataImg from "../assets/images/t-data.png";
+import AutoImg from "../assets/images/auto-tab.png";
 import DevopsImg from "../assets/images/deveops-icon.png";
 import TestingAuto from "../assets/images/testing-auto.png";
 import TestingIcon from "../assets/images/testing-icon.png";
@@ -65,20 +71,28 @@ function Services() {
                             <p>DevSecOps</p>
                           </div>
                           <div className="top-service">
-                            <img src={DevopsImg} alt="" />
-                            <p>DevSecOps</p>
+                            <img src={InviormentImg} alt="" />
+                            <p>Environment as a service</p>
                           </div>
                           <div className="top-service">
-                            <img src={DevopsImg} alt="" />
-                            <p>DevSecOps</p>
+                            <img src={IncidentImg} alt="" />
+                            <p>Incident Management</p>
                           </div>
                           <div className="top-service">
-                            <img src={DevopsImg} alt="" />
-                            <p>DevSecOps</p>
+                            <img src={TabsMImg} alt="" />
+                            <p>Message Brokers</p>
                           </div>
                           <div className="top-service">
-                            <img src={DevopsImg} alt="" />
-                            <p>DevSecOps</p>
+                            <img src={DesignImg} alt="" />
+                            <p>Microservices Design</p>
+                          </div>
+                          <div className="top-service">
+                            <img src={TDataImg} alt="" />
+                            <p>Data Analytics Integration</p>
+                          </div>
+                          <div className="top-service active-tab">
+                            <img src={AutoImg} alt="" />
+                            <p>Automated Testing</p>
                           </div>
                         </div>
                         <div className="testing-auto">
@@ -249,12 +263,12 @@ function Services() {
                   </div>
                   <div className="row mt-5 wrp">
                     <div className="cloud-ser-main">
-                      <div className="col-md-4">
+                      <div className="col-md-6">
                         <div className="cloud-services">
                           <h4>Strategically Aligned With <span className="b-span-three">Industry Leaders</span></h4>
                         </div>
                       </div>
-                      <div className="col-md-2">
+                      <div className="col-md-1">
                         <img src={Aws} alt="" />
                       </div>
                       <div className="col-md-2">

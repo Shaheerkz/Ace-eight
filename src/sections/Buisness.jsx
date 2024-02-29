@@ -32,7 +32,7 @@ function Buisness() {
                 <GradientButton text="More About Us" />
               </div>
             </div>
-            <div className="col-md-6" data-aos="fade-right">
+            <div className="col-md-6 d-flex justify-content-center" data-aos="fade-right">
               <img src={buisnessPng} className="b-image" alt="" />
             </div>
           </div>

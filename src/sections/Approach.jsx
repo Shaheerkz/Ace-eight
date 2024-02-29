@@ -43,7 +43,7 @@ function Approach() {
                       </div>
                     </div>
                     <div className="col-md-4">
-                      <div className="app-card">
+                      <div className="app-card-2">
                         <div className="app-card-child text-center justify-content-center d-flex flex-column align-items-center">
                           <img src={appIcon1} className="card-icon mb-3" alt="" />
                           <p>
@@ -61,7 +61,7 @@ function Approach() {
                       </div>
                     </div>
                     <div className="col-md-4">
-                      <div className="app-card">
+                      <div className="app-card-3">
                         <div className="app-card-child text-center justify-content-center d-flex flex-column align-items-center">
                           <img src={appIcon1} className="card-icon mb-3" alt="" />
                           <p>
